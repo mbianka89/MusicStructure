@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music Structure App</string>
+    <string name="category_search">Search</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_playlists">Playlists</string>
+    <string name="description_search_category">"In this activity the user will be able to scan the device for music files."</string>
+    <string name="description_songs_category">"In this activity the user will have all of his/her favourite songs listed."</string>
+    <string name="description_playlists_category">"In this activity the user will be able to create playlists by creating a folder and adding hand-picked songs to it."</string>
+</resources>

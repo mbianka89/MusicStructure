@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructureapp.MainActivity"
+    android:weightSum="1"
+    android:id="@+id/activity_main">
+
+    <TextView
+
+        android:id="@+id/search"
+        android:background="@color/colorPrimary"
+        android:text="@string/category_search"
+        style="@style/CategoryStyle"
+        android:layout_weight="0.37"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/songs"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/category_songs"
+        style="@style/CategoryStyle"
+        android:layout_weight="0.36" />
+
+    <TextView
+
+        android:id="@+id/playlists"
+        android:background="@color/colorAccent"
+        android:text="@string/category_playlists"
+        style="@style/CategoryStyle"
+        android:layout_weight="0.29" />
+
+</LinearLayout>
