@@ -13,7 +13,6 @@ public class PlaylistsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlists);
 
-
         // Find the View that shows the search category in the Playlists Activity
         ImageView searchButton = (ImageView) findViewById(R.id.search_button);
 
@@ -31,8 +30,6 @@ public class PlaylistsActivity extends AppCompatActivity {
                 startActivity(SearchIntent);
             }
         });
-
-
 
         // Find the View that shows the songs category in the Playlists Activity
         ImageView songsButton = (ImageView) findViewById(R.id.songs_button);

@@ -1,40 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.musicstructureapp.MainActivity"
-    android:weightSum="1"
-    android:id="@+id/activity_main">
+    android:weightSum="3"
+    tools:context="com.example.android.musicstructureapp.MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
 
-        android:id="@+id/search"
-        android:background="@color/colorPrimary"
-        android:text="@string/category_search"
-        style="@style/CategoryStyle"
-        android:layout_weight="0.37"
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_black_24dp" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/CategoryStyle"
+            android:layout_height="151dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/category_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
 
 
-        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_play_circle_outline_black_24dp" />
 
-    <TextView
+        <TextView
+            android:id="@+id/songs"
+            style="@style/CategoryStyle"
+            android:layout_height="206dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/category_songs" />
+    </LinearLayout>
 
-        android:id="@+id/songs"
-        android:background="@color/colorPrimaryDark"
-        android:text="@string/category_songs"
-        style="@style/CategoryStyle"
-        android:layout_weight="0.36" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1
+">
 
-    <TextView
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_playlist_play_black_24dp" />
 
-        android:id="@+id/playlists"
-        android:background="@color/colorAccent"
-        android:text="@string/category_playlists"
-        style="@style/CategoryStyle"
-        android:layout_weight="0.29" />
-
+        <TextView
+            android:id="@+id/playlists"
+            style="@style/CategoryStyle"
+            android:background="@color/colorAccent"
+            android:text="@string/category_playlists"
+            android:layout_height="150dp" />
+    </LinearLayout>
 </LinearLayout>

@@ -12,27 +12,35 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/description_search_category"/>
-
+        android:text="@string/description_search_category" />
 
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="186dp"
-    android:orientation="vertical"
-    android:weightSum="1">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="250dp"
+        android:weightSum="1">
 
-    <ImageView
-        android:id="@+id/songs_button"
-        android:layout_width="58dp"
-        android:layout_height="59dp"
-        android:src="@drawable/songs2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Songs" />
 
-    <ImageView
-        android:id="@+id/playlists_button"
-        android:layout_width="59dp"
-        android:layout_height="61dp"
-        android:src="@drawable/playlists2"
-         />
-</LinearLayout>
+        <ImageView
+            android:id="@+id/songs_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_play_circle_outline_black_24dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Playlists" />
+
+        <ImageView
+            android:id="@+id/playlists_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_playlist_play_black_24dp" />
+    </LinearLayout>
 </LinearLayout>

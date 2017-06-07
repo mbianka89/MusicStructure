@@ -3,7 +3,7 @@
     <string name="category_search">Search</string>
     <string name="category_songs">Songs</string>
     <string name="category_playlists">Playlists</string>
-    <string name="description_search_category">"In this activity the user will be able to scan the device for music files."</string>
-    <string name="description_songs_category">"In this activity the user will have all of his/her favourite songs listed."</string>
-    <string name="description_playlists_category">"In this activity the user will be able to create playlists by creating a folder and adding hand-picked songs to it."</string>
+    <string name="description_search_category">"SEARCH\n\nIn this activity the user will be able to scan the device for music files, using the ContentResolver class to retrieve tracks from the device."</string>
+    <string name="description_songs_category">"SONGS\n\nIn this activity the user will be able to play his/her favourite songs, using the MediaPlayer media framework to play streamed audio."</string>
+    <string name="description_playlists_category">"PLAYLISTS\n\nIn this activity the user will be able to create playlists, using the onStartCommand() method that handles the initialization of the MediaSession, the MediaPlayer, loading the cached audio playlist and building the MediaStyle notification.</string>
 </resources>

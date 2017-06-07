@@ -31,7 +31,6 @@ public class SongsActivity extends AppCompatActivity {
             }
         });
 
-
         // Find the View that shows the playlists category in the Songs Activity
         ImageView playlistsButton = (ImageView) findViewById(R.id.playlists_button);
 

@@ -6,9 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-
 public class MainActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(searchIntent);
             }
         });
-
 
         // Find the View that shows the songs category
         TextView songs = (TextView) findViewById(R.id.songs);
@@ -65,7 +62,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(playlistsIntent);
             }
         });
-
-
     }
 }

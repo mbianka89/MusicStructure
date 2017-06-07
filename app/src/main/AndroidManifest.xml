@@ -22,7 +22,8 @@
         <activity
             android:name=".SongsActivity"
             android:label="Songs"></activity>
-        <activity android:name=".PlaylistsActivity"
+        <activity
+            android:name=".PlaylistsActivity"
             android:label="Playlists">
 
 
